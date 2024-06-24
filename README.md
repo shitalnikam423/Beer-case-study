@@ -1,6 +1,6 @@
 # Beer-case-study
 Overview
-This repository contains a data science case study focused on predicting the overall rating of beers using a dataset of beer reviews. The dataset includes various attributes related to the beers, reviews, and reviewers. The goal is to build and evaluate machine learning models to predict the overall rating of beers, with a detailed explanation of the steps taken and the results obtained.
+This repository contains a data science case study focused on building a Machine Learning model which predicts the overall rating of the beer. The dataset includes various attributes related to the beers, reviews, and reviewers. The goal is to build and evaluate machine learning models to predict the overall rating of beers, with a detailed explanation of the steps taken and the results obtained.
 
 Dataset
 The dataset train.csv contains the following columns:
@@ -26,10 +26,10 @@ user/gender: Gender of the user (if specified)
 user/profileName: Profile name of the user
 
 Objective
-The objective is to predict the review/overall rating of the beer using various features from the dataset. This involves data cleaning, feature engineering, model training, and evaluation.
+To build a Machine Learning model which predicts the overall rating of the beer.
 
 Steps
-Data Loading and Initial Inspection: Load the dataset and inspect for missing values and data types.
+Data Loading and Initial Inspection 
 
 Data Cleaning: Handle missing values, convert date columns to datetime, and extract meaningful features from date columns.
 Feature Engineering: Encode categorical variables, extract features from text columns using TF-IDF, perform sentiment analysis on text data, and normalize numerical features.
